@@ -45,3 +45,11 @@ Note
 Do not use this on anyone else's computer.
 Respect privacy and ethical boundaries.
 Learn responsibly.
+
+##Step-by-Step Instructions
+Download the ZIP file from GitHub
+
+Go to the repository page
+Click the green Code button
+Select Download ZIP
+Extract the ZIP file to your preferred folder
